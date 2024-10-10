@@ -2,9 +2,9 @@ package org.example.service;
 
 import org.example.model.User;
 import org.springframework.stereotype.Service;
-import javax.validation.Valid;
-import javax.validation.Validator;
-import javax.validation.ConstraintViolation;
+import jakarta.validation.Valid;
+import jakarta.validation.Validator;
+import jakarta.validation.ConstraintViolation;
 import org.springframework.beans.factory.annotation.Autowired;
 import java.util.ArrayList;
 import java.util.List;
